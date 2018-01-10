@@ -1,0 +1,39 @@
+{
+    "name": "git-open-diff",
+    "displayName": "Git Open Diff",
+    "description": "Compare checkout and master branch on local repository. Open files with VSCode.",
+    "version": "1.0.0",
+    "publisher": "kappariver",
+	"license": "MIT",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:git.openDiff"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "git.openDiff",
+                "title": "Git: Open Diff"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
