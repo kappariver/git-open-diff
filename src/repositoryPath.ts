@@ -1,3 +1,9 @@
+/**
+ * @license git-open-diff v1.0.0
+ * (c) 2018 kappariver
+ * License: MIT
+ */
+
 import { spawn } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';

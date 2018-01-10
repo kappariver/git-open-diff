@@ -1,3 +1,9 @@
+/**
+ * @license git-open-diff v1.0.0
+ * (c) 2018 kappariver
+ * License: MIT
+ */
+
 import * as vscode from 'vscode';
 
 export function openTextDocument(repositoryPath, diff) {

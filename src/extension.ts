@@ -1,3 +1,9 @@
+/**
+ * @license git-open-diff v1.0.0
+ * (c) 2018 kappariver
+ * License: MIT
+ */
+
 'use strict';
 
 import * as vscode from 'vscode';
