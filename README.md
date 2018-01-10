@@ -13,7 +13,9 @@ Open files with VSCode.
 
 ## Release Notes
 
-### 1.0.0
+### 1.1.0
+
+Added GitHub URL to README.md ↓ 
 
 ## Source
 
