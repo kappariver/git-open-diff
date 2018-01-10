@@ -1,4 +1,4 @@
-# git-open-diff README
+# git-open-diff
 
 Compare checkout and master branch on local repository. Open files with VSCode.
 
