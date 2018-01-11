@@ -1,7 +1,7 @@
 {
     "name": "git-open-diff",
     "displayName": "Git Open Diff",
-    "description": "Compare checkout and master branch on local repository. Open files with VSCode.",
+    "description": "Git Open Diff compares checkout and master branch on local repository, and opens files having differences.",
     "version": "1.3.1",
     "publisher": "kappariver",
 	"license": "MIT",
