@@ -8,7 +8,7 @@ import { spawn } from 'child_process';
 
 export function getDiff(repositoryPath) {
     return new Promise((resolve, reject) => {
-        const args = ['diff', '--name-only', 'HEAD', 'master'];
+        const args = ['diff', 'master', '--name-only'];
         const options = { cwd: repositoryPath };
 
         let git = spawn('git', args, options);
