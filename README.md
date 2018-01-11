@@ -3,6 +3,8 @@
 Compare checkout and master branch on local repository.
 Open files with VSCode.
 
+Open one file managed by repository, run the command.
+
 ## Requirements
 
 * Git for Windows
@@ -10,16 +12,6 @@ Open files with VSCode.
 ## Commands
 
 * Git: Open Diff
-
-## Release Notes
-
-### 1.2.0
-
-Updated activate function.
-
-### 1.1.0
-
-Added GitHub URL to README.md ↓ 
 
 ## Source
 

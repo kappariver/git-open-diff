@@ -1,7 +1,13 @@
 # Change Log
-All notable changes to the "git-open-diff" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.3.0
 
-## [Unreleased]
-- Initial release
+- Fixed bug to just one file showing.
+
+## 1.2.0
+
+- Updated activate function.
+
+## 1.1.0
+
+- Added GitHub URL to README.
