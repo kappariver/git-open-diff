@@ -1,5 +1,5 @@
 /**
- * @license git-open-diff v1.3.1
+ * @license git-open-diff v1.3.2
  * (c) 2018 kappariver
  * License: MIT
  */
