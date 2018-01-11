@@ -1,5 +1,5 @@
 /**
- * @license git-open-diff v1.2.0
+ * @license git-open-diff v1.3.0
  * (c) 2018 kappariver
  * License: MIT
  */
@@ -9,7 +9,7 @@
 import * as vscode from 'vscode';
 import { getDiff } from './diff';
 import { getRepositoryPath } from './repositoryPath';
-import { openTextDocument } from './textDocument';
+import { showTextDocument } from './textDocument';
 
 export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand('git.openDiff', () => {
@@ -35,7 +35,7 @@ function run(filePath) {
     })
     .then(function(data: string[]) {
         diff = data;
-        return openTextDocument(repositoryPath, diff);
+        return showTextDocument(repositoryPath, diff);
     })
     .catch(function(error) {
         console.log(error);
